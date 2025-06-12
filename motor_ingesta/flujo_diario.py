@@ -38,7 +38,7 @@ class FlujoDiario:
             # config["output_partitions"]
 
             motor_ingesta = ...
-            flights_df = ...
+            flights_df = spark.read.table("asdfaskdjfñldsakjf")
 
             # Paso 1. Invocamos al método para añadir la hora de salida UTC
             flights_with_utc = ...                # reemplaza por la llamada adecuada
